@@ -50,7 +50,7 @@ const itemsList = {
   }
 };
 
-console.log(itemsList.setItems(array));
+itemsList.setItems(array);
 console.log(itemsList.sum());
 console.log(itemsList.maxValue());
 
