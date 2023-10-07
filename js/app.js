@@ -83,7 +83,7 @@ const obj = {
       console.log(this.predictions[this.takeNumber()]);
     },
     takeNumber() {
-      return Math.floor(Math.random * this.predictions.length);
+      return Math.floor(Math.random() * this.predictions.length);
     }
 }
 const predictions = obj;
