@@ -2,11 +2,7 @@
 // 1. вывести одной строкой минимальное значние массива array с помощью деструктуризации и Math
 const array = [1, 2, 3, 4, 6, 710, 34013, 13];
 
-function arrayMinValue(){
-  return Math.min(...array);
-}
-
-console.log(arrayMinValue());
+console.log(Math.min(...array));
 
 // 2.функция multiply не принимает явно никаких параметров
 function multiply() {
@@ -78,8 +74,6 @@ const obj = {
       this.predictions = arr;
     },
     showPrediction() {
-      console.log(this.takeNumber());
-      console.log(this.predictions);
       console.log(this.predictions[this.takeNumber()]);
     },
     takeNumber() {
